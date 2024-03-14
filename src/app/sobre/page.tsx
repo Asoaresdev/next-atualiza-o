@@ -9,6 +9,7 @@ export default function SobrePage() {
     return(
         <main>
             <h2>Sobre</h2>
+            <h2 id="empresa"></h2>
         </main>
     )
 }
