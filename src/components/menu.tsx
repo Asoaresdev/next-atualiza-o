@@ -10,7 +10,10 @@ export default function MenuComponente() {
             <Link href="/sobre" prefetch={true}>Sobre</Link>
         </li>
         <li>
-            <Link href="/contato" prefetch={true}>Contato</Link>
+            <Link href="/imc" prefetch={true}>IMC</Link>
+        </li>
+        <li>
+            <Link href="/produtos" prefetch={true}>Produtos</Link>
         </li>
     </ul>
   )
