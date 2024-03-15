@@ -1,4 +1,5 @@
 import Acesso from "@/components/acesso";
+import ServerFetch from "@/components/serverFetch";
 
 export default function HomePage() {
 
@@ -6,6 +7,7 @@ export default function HomePage() {
     <main >
       <h1>Home</h1>
       <Acesso />
+      <ServerFetch />
     </main>
   );
 }
