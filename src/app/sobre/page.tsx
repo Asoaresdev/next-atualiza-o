@@ -1,3 +1,4 @@
+import Width from "@/components/width"
 import { Metadata } from "next"
 
 // meta tags, descrição da pagina 
@@ -9,6 +10,7 @@ export default function SobrePage() {
     return(
         <main>
             <h2>Sobre</h2>
+            <Width />   
         </main>
     )
 }
